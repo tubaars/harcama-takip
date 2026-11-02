@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harcama Takip Uygulaması</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Harcama Takip Uygulaması</h1>
+
+        <input type="text" id="harcamaAdi" placeholder="Harcama adı">
+
+        <input type="number" id="harcamaTutari" placeholder="Harcama tutarı">
+
+        <button onclick="harcamaEkle()">Harcama Ekle</button>
+
+        <h2>Harcama Listesi</h2>
+
+        <ul id="harcamaListesi"></ul>
+
+        <h2>Toplam Harcama: <span id="toplam">0</span> TL</h2>
+
+    </div>
+
+    <script src="js.js"></script>
+
+</body>
+</html>
